@@ -1,0 +1,36 @@
+---
+title: "Layout de trabalhos baseado em abntex2 (NÃO É PARA SER USADO EM TESES!!!!!!!!!!)"
+author: "Frodo Bolseiro"
+place: "Condado, Terra Média"
+year: "2021"
+output:
+  pdf_document:
+    template: template.tex
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE,
+                      fig.align="center")
+```
+
+<!-- introducao -->
+
+```{r child='chapters/1-intro.Rmd'}
+```
+
+
+<!-- escrita -->
+
+```{r child='chapters/2-escrita.Rmd'}
+```
+
+<!-- codigos -->
+
+```{r child='chapters/3-codigos.Rmd'}
+```
+
+<!-- apendice com codigos utilizados -->
+
+```{r child='chapters/code.Rmd'}
+```

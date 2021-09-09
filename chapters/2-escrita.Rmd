@@ -1,0 +1,15 @@
+\chapter{Escrita}
+
+# Escrevendo seções
+
+Para a escrita de novas seções neste formato de tarefas, basta fazê-lo como em qualquer outro documento .Rmd: a parte textual é redigida no próprio documento e os códigos são inseridos através de chunks.
+
+# Adicionando novas seções
+
+Para que sejam adicionadas novas seções, é *recomendável* que você faça o seguinte processo:
+
+1. Crie um arquivo .Rmd com o número da seção e um nome curto que lembre do que se trata. O arquivo deve ter uma linha escrita `\chapter{nome-do-capitulo}` e seções desse mesmo capítulo são adicionadas através dos comandos `#`, `##` e por aí vai;
+2. Salve o arquivo na pasta `chapters/` deste layout;
+3. No arquivo `parent-file.Rmd`, adicione o código que chama o capítulo salvo na pasta `chapters/`. Exemplos se encontram disponíveis; é só copiar, colar e alterar;
+4. Ao knitar seu documento, o capítulo estará adicionado automaticamente!
+

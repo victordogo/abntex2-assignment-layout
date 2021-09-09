@@ -1,0 +1,11 @@
+\chapter{Introdução}
+
+Essa é a introdução deste tema. O objetivo dele foi inspirar-se na classe de documento `abntex2` para fornecer um layout agradável para trabalhos e tarefas onde as normas técnicas não sejam *extremamente* necessárias. Com isso dito, não é recomendável que este layout seja usado para teses. 
+
+# Objetivo
+
+O objetivo deste layout, no futuro, é a construção de um pacote para documentos em pdf redigidos em RMarkdown.
+
+# Formato
+
+O formato deste trabalho está dividido em: escrita, criando novos capítulos e inserção de códigos.

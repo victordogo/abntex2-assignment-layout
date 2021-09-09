@@ -1,0 +1,23 @@
+\chapter{Códigos}
+
+# Inserindo códigos
+
+Códigos neste layout não são mostrados na ordem em que são escritos como se é de praxe em documentos no R Markdown. 
+
+```{r}
+# Mostrando o início da base de dados mtcars
+
+head(mtcars)
+```
+
+Ao invés disso, eles são automaticamente renderizados num apêndice no arquivo `code.Rmd`. Você não precisa mexer neste arquivo: ele faz tudo sozinho! O trabalho maior é deixar tudo devidamente documentado para que a pessoa que for ler seu documento saiba de qual sessão cada código é.
+
+Abaixo, por exemplo, calcularemos o sumário da variável mpg do banco de dados `mtcars`:
+```{r}
+# sumario da variável mpg do banco de dados mtcars
+
+summary(mtcars$mpg)
+
+```
+
+Vê como é fácil? Após renderizar seu arquivo, veja no apêndice como os códigos são renderizados!

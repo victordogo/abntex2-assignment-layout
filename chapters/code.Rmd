@@ -1,0 +1,4 @@
+\chapter*{Apêndice: Códigos Utilizados}
+
+```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
+```
